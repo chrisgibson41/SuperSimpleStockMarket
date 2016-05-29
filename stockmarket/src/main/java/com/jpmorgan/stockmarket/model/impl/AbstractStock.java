@@ -80,6 +80,4 @@ public abstract class AbstractStock {
 	public long calculateVolumeWeightedStockPrice(DateTime fromDateTime) {
 		return stockCalculator.calculateVolumeWeightedStockPrice(recordedStockTrades, fromDateTime);
 	}
-
-	public abstract double calculateDividendYield(long stockPrice);
 }
