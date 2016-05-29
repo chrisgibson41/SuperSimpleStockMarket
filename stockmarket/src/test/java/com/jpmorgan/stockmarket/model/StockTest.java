@@ -31,7 +31,6 @@ public class StockTest extends EasyMockSupport {
 		// Test
 		double result = stock.calculateDividendYield(stockPrice);
 
-		System.out.println(result);
 		// Verify
 		assertEquals(0.5, result, 0);
 	}
