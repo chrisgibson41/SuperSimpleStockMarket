@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package com.jpmorgan.stockmarket.model.impl;
 
 import java.util.TreeMap;
@@ -6,12 +9,6 @@ import org.joda.time.DateTime;
 
 import com.jpmorgan.stockmarket.model.StockTrade;
 
-/**
- * Abstract stock base class.
- * 
- * @author Chris Gibson
- *
- */
 public abstract class AbstractStock {
 
 	private final String stockSymbol;
